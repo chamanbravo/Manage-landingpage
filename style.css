@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@100;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --Bright-red: hsl(12, 88%, 59%);
+    --Dark-blue: hsl(228, 39%, 23%);
+    --Dark-Grayish-Blue: hsl(227, 12%, 61%);
+    --Very-Dark-Blue: hsl(233, 12%, 13%);
+    --Very-Pale-Red: hsl(13, 100%, 96%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+body{
+    background-color: var(--Very-Light-Gray);
+    margin: 0 auto;
+    font-family: Be Vietnam;
+}
+#header{
+    margin-top: 3.5rem;
+    margin-bottom: 7.5rem;
+}
+#navbar{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+#menu li a{
+    text-decoration: none;
+    color: var(--Dark-blue);
+    font-size: 16px;
+}
+/*
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+
+## Colors
+
+### Primary
+
+Bright Red: hsl(12, 88%, 59%)
+Dark Blue: hsl(228, 39%, 23%)
+
+### Neutral
+
+Dark Grayish Blue: hsl(227, 12%, 61%)
+Very Dark Blue: hsl(233, 12%, 13%)
+Very Pale Red: hsl(13, 100%, 96%)
+Vary Light Gray: hsl(0, 0%, 98%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 16px
+
+### Font
+
+- Family: [Be Vietnam](https://fonts.google.com/specimen/Be+Vietnam)
+- Weights: 400, 500, 700
+
+*/
