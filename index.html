@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>manage</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <link rel="icon" href="assets/favicon-32x32.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
+        
+
+        <title>Frontend Mentor | Manage</title>
     </head>
     
     <body>
@@ -72,37 +79,42 @@
         <div id="testimonials">
           <h1 id="testimonials_title">What they've said</h1>
 
-          <div id="card">
-            <img id="avatar" src="assets/avatar-ali.png">
-            <h3>Ali Bravo</h3>
-            <p>We have been able to cancel so many other subscriptions since using 
-              Manage. There is no more cross-channel confusion and everyone is much 
-              more focused.</p>
+          <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+
+            <div id="card">
+              <img id="avatar" src="assets/avatar-ali.png">
+              <h3>Ali Bravo</h3>
+              <p>"We have been able to cancel so many other subscriptions since using 
+                Manage. There is no more cross-channel confusion and everyone is much 
+                more focused."</p>
+            </div>
+
+            <div id="card">
+              <img id="avatar" src="assets/avatar-richard.png">
+              <h3>Richard Watts</h3>
+              <p>"Manage allows us to provide structure and process. It keeps us organized 
+                and focused. I can’t stop recommending them to everyone I talk to!"</p>
+            </div>
+
+            <div id="card">
+              <img id="avatar" src="assets/avatar-shanai.png">
+              <h3>Shanai Hough</h3>
+              <p>"Their software allows us to track, manage and collaborate on our projects 
+                from anywhere. It keeps the whole team in-sync without being intrusive."</p>
+            </div>          
+
+            <div id="card">
+              <img id="avatar" src="assets/avatar-anisha.png">
+              <h3>Anisha Li</h3>
+              <p>"We have been able to cancel so many other subscriptions since using 
+                Manage. There is no more cross-channel confusion and everyone is much 
+                more focused."</p>
+            </div> 
           </div>
-
-          <div id="card">
-            <img id="avatar" src="assets/avatar-richard.png">
-            <h3>Richard Watts</h3>
-            <p>Manage allows us to provide structure and process. It keeps us organized 
-              and focused. I can’t stop recommending them to everyone I talk to!</p>
-          </div>
-
-          <div id="card">
-            <img id="avatar" src="assets/avatar-shanai.png">
-            <h3>Shanai Hough</h3>
-            <p>Their software allows us to track, manage and collaborate on our projects 
-              from anywhere. It keeps the whole team in-sync without being intrusive.</p>
-          </div>          
-
-          <div id="card">
-            <img id="avatar" src="assets/avatar-anisha.png">
-            <h3>Anisha Li</h3>
-            <p>We have been able to cancel so many other subscriptions since using 
-              Manage. There is no more cross-channel confusion and everyone is much 
-              more focused.</p>
-          </div> 
           
-          <a id="get-started-btn" href="#">Get Started</a>
+          <div id="center-btn">
+            <a id="get-started-btn" href="#">Get Started</a>
+          </div>
 
         </div>
         
