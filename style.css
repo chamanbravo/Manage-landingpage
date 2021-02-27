@@ -158,13 +158,22 @@ h1, h2, p{
     margin-top: 2rem;
     margin-bottom: 5rem;
 }
+.flickity-page-dots .dot{
+    opacity: 1;
+    background: transparent;
+    border: 2px solid var(--Bright-red);
+}
+.flickity-page-dots .dot.is-selected {
+    background: var(--Bright-red);
+  }
 #card{
     width: 33%;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 2.5rem;
     margin-top: 3rem;
     margin-right: 2rem;
+    height: 230px;
     background-color: var(--Very-Light-Gray);
     text-align: center;
 }
@@ -185,37 +194,104 @@ h1, h2, p{
     display: flex;
     justify-content: center;
 }
+#orange{
+    background-color: var(--Bright-red);
+    background-image: url(/assets/bg-simplify-section-desktop.svg);
+    background-repeat: no-repeat;
+}
+#simplify{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#get-started-btn-white{
+    border-radius: 50px;
+    background-color: #fff;
+    color: var(--Bright-red);
+    padding: 0.9rem 1.8rem;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+#get-started-btn-white:hover{
+    opacity: 0.75;
+}
+#simplify h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+#footer{
+    background: var(--Very-Dark-Blue);
+}
+#footer-elements{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+#social{
+    margin-top: 5rem;
+}
+.fab{
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.fab:hover{
+    color: var(--Bright-red);
+}
+#nav-links ul li{
+    list-style: none;
+    margin-bottom: 0.8rem;
+}
+#nav-links ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
 
-/*
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-
-## Colors
-
-### Primary
-
-Bright Red: hsl(12, 88%, 59%)
-Dark Blue: hsl(228, 39%, 23%)
-
-### Neutral
-
-Dark Grayish Blue: hsl(227, 12%, 61%)
-Very Dark Blue: hsl(233, 12%, 13%)
-Very Pale Red: hsl(13, 100%, 96%)
-Vary Light Gray: hsl(0, 0%, 98%)
-
-## Typography
-
-### Body Copy
-
-- Font size: 16px
-
-### Font
-
-- Family: [Be Vietnam](https://fonts.google.com/specimen/Be+Vietnam)
-- Weights: 400, 500, 700
-
-*/
+}
+#nav-links ul li a:hover{
+    color: var(--Bright-red);
+}
+form{
+    display: inline-block;
+}
+#email-input{
+    outline: none;
+    height: 2.5rem;
+    border-radius: 50px;
+    padding-left: 20px;
+    border-style: none;
+    font-size: 16px;
+    color: var(--Bright-red);
+}
+#go-btn{
+    outline: none;
+    border-style: none;
+    height: 2.5rem;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: var(--Bright-red);
+    padding: 0.6rem 1.4rem;
+    border-radius: 50px;   
+    cursor: pointer;
+}
+#go-btn:hover{
+    opacity: 0.75;
+}
+#newsletter p{
+    color: var(--Very-Light-Gray);
+    font-size: 12px;
+    text-align: right;
+    margin-top: 4.5rem;
+    opacity: 0.75;
+}
