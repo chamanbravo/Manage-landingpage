@@ -8,9 +8,7 @@
         <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
         <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
         <script src="https://kit.fontawesome.com/689e51df7a.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
-        
+        <link rel="stylesheet" href="style.css">        
 
         <title>Frontend Mentor | Manage</title>
     </head>
@@ -22,7 +20,7 @@
 
                 <img src="assets/logo.svg" class="logo" href="#" alt="manage_logo">
 
-                    <ul class="menu hide-for-mobile">
+                    <ul class="menu">
                         <li><a href="#">Pricing</a></li>
                         <li><a href="#">Product</a></li>
                         <li><a href="#">About Us</a></li>
@@ -30,9 +28,12 @@
                         <li><a href="#">Community</a></li>
                     </ul>
 
+                  <div class="overlay hide-for-desktop"></div>
+
                 <a class="btn get-started-btn hide-for-mobile" href="#">Get Started</a>
 
                 <i class="fas fa-bars ham-menu hide-for-desktop"></i>
+                <i class="fas fa-times hide-for-desktop"></i>
 
             </div>
         </div>
@@ -176,6 +177,8 @@
             </div>
           </div>
         </div>
-        
+
+
+      <script src="script.js"></script> 
     </body>
 </html>

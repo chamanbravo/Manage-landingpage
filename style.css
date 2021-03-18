@@ -97,10 +97,51 @@ a{
 }
 .ham-menu{
     font-size: 1.6rem;
+    cursor: pointer;
+    z-index: 1;
 }
-@media (max-width: 767.5px){
-    .hide-for-mobile{
+@media(max-width: 767.5px){
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        background-image: linear-gradient(to top, #000, transparent);
+        opacity: 0;
+        pointer-events: none;
+        transition: ease-in-out 0.5s;
+    }
+    .menu{
         display: none;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #fff;
+        width: 90%;
+        z-index: 1;
+        text-align: center;
+        transition: ease-in-out 0.5s;
+    }
+    .menu li{
+        list-style: none;
+    }
+    .menu li a{
+        color: var(--Dark-blue);
+        font-size: 1.4rem;
+        font-weight: 800;
+    }
+    .menu li{
+        margin-bottom: 2rem;
+    }
+    .menu li:first-child{
+        margin-top: 2rem;
+    }
+    .fa-times{
+        font-size: 2rem;
+        display: none;
+        cursor: pointer;
     }
 }
 .intro{
@@ -397,12 +438,15 @@ form{
       background-position: 350px -350px , -350px 1200px;
     }
     .hide-for-desktop{
-        display: none;
+        display: none !important;
     }
     @media (max-width: 991px){
         .navbar .btn{
             display: none;
         }
+    }
+    .menu{
+        display: unset !important;
     }
     .menu li{
         list-style: none;
