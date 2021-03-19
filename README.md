@@ -56,8 +56,8 @@ Now I am planning on learning React and start applying it in my projects as well
 
 ### Useful resources
 
-- w3schools: (https://www.w3schools.com)
-- MDN webdocs: (https://developer.mozilla.org)
+- w3schools: [w3schools](https://www.w3schools.com)
+- MDN webdocs: [MDN webdocs](https://developer.mozilla.org)
 
 
 ## Author
