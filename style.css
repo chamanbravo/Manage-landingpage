@@ -493,6 +493,7 @@ form{
         padding-left: unset;
         padding-right: unset;
         text-align: left;
+        margin-right: 1rem;
     }
     .difference_qns h2{
         font-size: 1.8rem;
@@ -584,7 +585,7 @@ form{
         padding-left: 5rem;
         padding-right: 5rem;
     }
-    .footer{
+    .footer-elements{
         padding-left: 5rem;
         padding-right: 5rem;
     }
