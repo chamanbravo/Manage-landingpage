@@ -79,6 +79,9 @@ a{
     .hide-for-mobile{
         display: none;
     }
+    .get-started-btn-white{
+        margin-top: 2rem;
+    }
 }
 .header, .intro, .difference, .simplify, .footer-elements {
     max-width: 1920px;
@@ -609,7 +612,7 @@ form{
         padding-left: 10rem;
         padding-right: 10rem;
         padding-top: 3.9375rem;
-        padding-bottom: 6.875rem;
+        padding-bottom: 6.475rem;
     }
     .intro_text h1{
         font-size: 3.3125rem;
@@ -638,10 +641,10 @@ form{
     .difference_list ul li h3{
         font-size: 1.2rem;
         color: #242d52;
-        margin-bottom: 1.625rem;
+        margin-bottom: 1.225rem;
     } 
     .testimonials{
-        margin-bottom: 11.125rem;
+        margin-bottom: 9.125rem;
     } 
     .testimonials h1{
         font-size: 2.375rem;
