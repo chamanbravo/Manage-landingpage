@@ -1,4 +1,4 @@
-# Frontend Mentor - Manage landing page solution
+# Manage landing page 
 
 ![Design preview](./design/desktop-preview.jpg)
 
